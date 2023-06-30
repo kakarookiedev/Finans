@@ -8,9 +8,19 @@
 	border-bottom: 1px solid #e5e5e5;
 }
 
+.footer-icons{
+	padding: 2px;
+}
+
 footer p a {
 	margin: 5px 15px;
 }
 .borda{
     border: 1px solid blue;
+}
+
+@media (max-width: 575.98px) { 
+	.footer-icons{
+		align-items: center;
+	}
 }
